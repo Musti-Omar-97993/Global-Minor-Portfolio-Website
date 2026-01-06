@@ -3,24 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>South Africa - Data Science | Mustapha Ismael Omar</title>
-    <link rel="stylesheet" href="style.css">
+    <title>South Africa - Project Integration & Analysis | Mustapha Ismael Omar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="south-africa.css">
 </head>
-
 <body>
     <!-- Header -->
     <header>
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <div class="south-africa-flag">
-                        <img src="images/flags/south-africa-flag.png" alt="South African Flag" 
-                            onerror="this.style.display='none'" 
-                            style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <span>The South African Edition - <i class="fas fa-globe-europe"></i> Mustapha Ismael Omar</span>
+                    <div class="south-africa-flag"></div>
+                    <span>The South African Edition - <i class="fas fa-chart-line"></i> Mustapha Ismael Omar</span>
                 </div>
                 <div class="mobile-toggle">
                     <i class="fas fa-bars"></i>
@@ -30,7 +25,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="index.html#modules">Modules</a></li>
                         <li><a href="index.html#about">About</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#contact">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
@@ -42,48 +37,542 @@
         <div class="container">
             <div class="page-hero-content">
                 <h1>South Africa - Data Science</h1>
-                <p>Applying data science methodologies to extract insights from complex datasets and build predictive models.</p>
-                <a href="#overview" class="btn">Explore the Experience</a>
+                <p>Final integration, analysis, and deployment of the environmental monitoring system with stakeholder engagement and real-world testing.</p>
             </div>
         </div>
     </section>
 
-    <!-- Coming Soon Section -->
-    <section class="content-section week-overview" id="overview">
+    <!-- Travel to South Africa and First Impressions -->
+    <section class="content-section" id="travel">
+        <div class="hero-buttons">
+            <a href="#travel" class="btn">Travel Home</a>
+            <a href="#weeks-tabs" class="btn">Weekly Experiences</a>
+            <a href="#intercultural-tabs" class="btn">Intercultural Experiences</a>
+            <a href="#learning-tabs" class="btn">Learning Outcomes</a>
+        </div>
+
         <div class="container">
             <div class="section-title">
-                <h2>Coming Soon</h2>
-                <p>This page is currently under development. Check back later for my South Africa Data Science experiences!</p>
+                <h2>Travel to South Africa</h2>
             </div>
-            <div class="overview-grid">
-                <div class="overview-card">
-                    <div class="overview-header">
-                        <h3><i class="fas fa-chart-bar"></i> Data Analysis</h3>
+
+            <div class="content-card">
+                <div class="week-with-images">
+                    <div class="week-images">
+                        <div class="week-image">
+                            <img src="images/gallery/south-africa/travel1.jpg" alt="Eindhoven friends farewell">
+                        </div>
+                        <div class="week-image">
+                            <img src="images/gallery/south-africa/travel2.jpg" alt="Amsterdam Central Station">
+                        </div>
+                        <div class="week-image">
+                            <img src="images/gallery/south-africa/travel3.jpg" alt="Schiphol Airport departure">
+                        </div>
                     </div>
-                    <div class="overview-body">
-                        <p>This section will detail my work with data analysis and visualization during the South Africa module.</p>
-                        <p>Information about statistical methods, data processing, and insight generation will be added here.</p>
+                    <div class="week-text">
+                        <h3>The Journey Home</h3>
+                        <p>After finishing up the Belgium phase of the project in Hasselt, I began the long journey back to South Africa. My first stop was Eindhoven, where I spent the night catching up with friends we had made earlier in the semester. It was a good way to decompress after the final AI presentation push before starting the long-haul travel. Revisiting Eindhoven felt like coming full circle, as this was where our European journey had begun months earlier.</p>
+
+                        <p>The next day, I took a train from Eindhoven to Amsterdam. Unfortunately, this part of the trip didn't go as planned; while in Amsterdam, my laptop bag was stolen. It was a massive setback, especially given how much of our project work and personal data is tied to our devices. I had to spend a significant amount of time reporting the theft to the local authorities and trying to sort out the situation before I could head to the airport. The experience was frustrating and stressful, adding an unexpected challenge to what should have been a straightforward travel day.</p>
+
+                        <p>Despite the stress of the theft, I eventually made it to Schiphol Airport for my flight. I flew from Amsterdam to Doha, where I had a one-day layover. This gave me a bit of time to process the end of the exchange before catching my final flight back to South Africa. The Doha layover provided a moment of quiet reflection amidst the chaos of travel - a chance to think about everything we had accomplished over the past three months across four European countries.</p>
+
+                        <p>Arriving home after more than three months away was a strange feeling. I was exhausted from the many hours of travel and the loss of my bag, but it was a relief to finally be back. The familiar sights, sounds, and even the smell of South African air were instantly recognizable. There was a sense of completion mixed with the realization that the international portion of our project was over, and now we had the final South African phase to complete.</p>
+
+                        <p>Returning to South Africa for the final module felt different than arriving in any of the European countries. This wasn't just another destination - it was home, and it was where we would bring together everything we had learned overseas. The contrast between the European winter we had left behind and the South African summer we returned to was striking, mirroring the transition from theoretical development to practical implementation that characterized this final phase of the project.</p>
                     </div>
                 </div>
-                
-                <div class="overview-card">
-                    <div class="overview-header">
-                        <h3><i class="fas fa-database"></i> Big Data</h3>
-                    </div>
-                    <div class="overview-body">
-                        <p>Details about working with large datasets and distributed computing will be documented here.</p>
-                        <p>This will include both technical approaches and practical applications in the South African context.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weeks in South Africa Tab Section -->
+    <section class="tab-section" id="weeks-tabs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Weeks in South Africa</h2>
+                <p>My weekly experiences and learnings during the Project Integration & Analysis module</p>
+            </div>
+
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="week1">
+                        <i class="fas fa-calendar-week"></i> Week 1
+                    </button>
+                    <button class="tab-btn" data-tab="week2">
+                        <i class="fas fa-calendar-week"></i> Week 2
+                    </button>
+                    <button class="tab-btn" data-tab="week3">
+                        <i class="fas fa-calendar-week"></i> Week 3
+                    </button>
+                </div>
+
+                <!-- Week 1 Tab -->
+                <div class="tab-content active" id="week1">
+                    <div class="content-card">
+                        <div class="week-with-images">
+                            <div class="week-images">
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week1-1.jpg" alt="Visualization Workshop">
+                                </div>
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week1-2.jpg" alt="Hartbeespoort Dam Deployment">
+                                </div>
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week1-3.jpg" alt="Stakeholder Meeting">
+                                </div>
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week1-4.jpg" alt="Cape Town V&A Waterfront">
+                                </div>
+                            </div>
+                            <div class="week-text">
+                                <h2>Week 1 in South Africa:</h2>
+                                <p>In the first week, the main focus in class was understanding the project and its outputs from different perspectives. We worked specifically on how visualisations can be interpreted by different audiences, such as department officials, scientific or technical audiences, and non-technical audiences like 12-year-old children. This involved looking at how the same data can be communicated in different ways depending on who the information is intended for, and what level of detail and explanation is appropriate.</p>
+
+                                <p>We discussed what makes a visualisation clear or unclear, including the use of labels, scales, colour, and the amount of information shown at once. These discussions helped us think critically about how our project outputs would eventually be presented and understood by people with very different backgrounds and expectations.</p>
+
+                                <p>During this week, we also went to Hartbeespoort Dam to deploy the devices that had been built during the Austrian phase of the project. This was the first time the devices were tested in a real outdoor environment. While placing the devices in the water, several technical issues became clear. Powering the devices using laptops or power banks was not practical, as this required the devices to remain close to us. This limited where the devices could be placed and made it clear that an independent power supply would be needed for the devices to float freely on the dam.</p>
+
+                                <p>We also experienced problems with the GPS sensor. Although the sensor powered on, it was unable to connect to a satellite. This meant that location data could not be collected as intended. Identifying this issue during field testing highlighted the importance of testing all components under real conditions rather than only in controlled environments.</p>
+
+                                <p>While at the dam, we met our stakeholders in person for the first time. We discussed the current state of the devices and the goals of the project. The stakeholders provided feedback and suggestions for improvement, including the idea of designing a device that could take measurements at multiple depths in the water instead of only just below the surface. This feedback helped clarify future development directions.</p>
+
+                                <p>The remainder of the week was spent working on the identified technical problems, making adjustments to the devices where possible, and completing Assignment 1, which was based on the work done during this initial phase of the project.</p>
+
+                                <h3>Out of class:</h3>
+                                <p>Outside of class, the group had lunch together at Willows on Monday. On Thursday, we drove to Cape Town and spent the weekend there, returning on Monday at the start of Week 2.</p>
+
+                                <p>In Cape Town, we stayed at Rourke's family farm. On Friday, after the approximately 17-hour drive from Pretoria, the day was mostly spent resting and recovering. We went swimming at Rourke's place and later took a drive into the city centre and the V&A Waterfront.</p>
+
+                                <p>On Saturday, we did the red bus tour of the city. This allowed us to see several historic parts of Cape Town as well as natural landmarks, including the coastline, beaches, Table Mountain, and Signal Hill. Later that day, we had a sunset picnic at the top of Signal Hill.</p>
+
+                                <p>On Sunday, we visited additional coastal areas that were not covered during the red bus tour. These included Boulders Beach, where we saw penguins, as well as Misty Cliffs and other nearby locations. On Monday, we drove back to Pretoria.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="overview-card">
-                    <div class="overview-header">
-                        <h3><i class="fas fa-project-diagram"></i> Machine Learning</h3>
+
+                <!-- Week 2 Tab -->
+                <div class="tab-content" id="week2">
+                    <div class="content-card">
+                        <div class="week2-with-images">
+                            <div class="week2-text">
+                                <h2>Week 2 in South Africa:</h2>
+                                <p>During the second week, in-class activities focused on analytical methods and reporting frameworks that could be applied to the project. A key topic was the twelve capitals of integrated reporting. We learned what each capital represents and how companies use them to create value. This knowledge was then applied by comparing two companies listed on the Johannesburg Stock Exchange.</p>
+
+                                <p>The comparison involved looking at how each company performed across the different capitals rather than focusing only on financial results. This helped us understand broader measures of impact and sustainability, and how these factors can influence decision-making in real projects.</p>
+
+                                <p>We were also introduced to uncertainty analysis and applied these methods to sample datasets. This involved comparing data while taking into account variability and uncertainty, rather than treating values as exact. This process showed how uncertainty can influence interpretations and why it is important to consider when analysing results.</p>
+
+                                <p>In addition, we created a simple machine learning model as part of the seed count case study. The model was used to generate visualisations that helped show patterns in the data. This activity demonstrated how basic machine learning tools can support analysis and improve how results are presented, even when the models themselves are relatively simple.</p>
+
+                                <h3>Out of class:</h3>
+                                <p>Outside of class, we went shopping in Pretoria during the week before driving down to Margate on Thursday.</p>
+
+                                <p>While in Margate, we spent time at the beaches and went on a rainforest hike. We also visited Oribi Gorge and Lake Eland Nature Reserve. At Lake Eland, we did a game drive, walked across suspension bridges over parts of the gorge, and went on several ziplines, including the fastest zipline in the country, which can reach speeds of up to 160 km/h.</p>
+
+                                <p>During this trip, we also visited some caves with rock paintings created by the Khoisan people, giving us insight into South Africa's cultural history.</p>
+
+                                <p>On Sunday, we visited a crocodile park, where we saw crocodiles both in and out of the water, ranging from very young to fully grown. We also saw snakes and were allowed to hold a baby crocodile and a small snake. After this, we went souvenir shopping before starting the roughly nine-hour drive back to Pretoria.</p>
+                            </div>
+                            <div class="week2-images">
+                                <div class="week2-image">
+                                    <img src="images/gallery/south-africa/week2-1.jpg" alt="Integrated Reporting Analysis">
+                                </div>
+                                <div class="week2-image">
+                                    <img src="images/gallery/south-africa/week2-2.jpg" alt="Oribi Gorge">
+                                </div>
+                                <div class="week2-image">
+                                    <img src="images/gallery/south-africa/week2-3.jpg" alt="Lake Eland Zipline">
+                                </div>
+                                <div class="week2-image">
+                                    <img src="images/gallery/south-africa/week2-4.jpg" alt="Khoisan Rock Paintings">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="overview-body">
-                        <p>Key learnings about implementing machine learning models for real-world problems will be showcased here.</p>
-                        <p>This will include both algorithm development and deployment strategies from South Africa.</p>
+                </div>
+
+                <!-- Week 3 Tab -->
+                <div class="tab-content" id="week3">
+                    <div class="content-card">
+                        <div class="week-with-images">
+                            <div class="week-images">
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week3-1.jpg" alt="Knapsack Model Analysis">
+                                </div>
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week3-2.jpg" alt="Final Presentation">
+                                </div>
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week3-3.jpg" alt="Pilanesberg Game Drive">
+                                </div>
+                                <div class="week-image">
+                                    <img src="images/gallery/south-africa/week3-4.jpg" alt="Farewell Braai">
+                                </div>
+                            </div>
+                            <div class="week-text">
+                                <h2>Week 3 in South Africa:</h2>
+                                <p>In the third week, the in-class work focused on bringing together everything that had been covered during Weeks 1 and 2. Using the analytical methods, reporting frameworks, and stakeholder considerations, we worked on determining which company would be the best fit for the project.</p>
+
+                                <p>This process involved comparing the companies based on the criteria developed earlier, including their suitability for the project goals and their potential impact. To support this decision-making process, we worked with a linear programming model, specifically the knapsack model. This model helped structure the decision by balancing constraints and priorities in a systematic way.</p>
+
+                                <p>After completing the analysis and selecting the most suitable company, we focused on preparing our final presentations. This included organising the results, refining the visualisations and dashboard, and ensuring that the project outcomes were communicated clearly. The final presentations marked the end of the project, which concluded after three months of work across multiple countries.</p>
+
+                                <h3>Out of class:</h3>
+                                <p>Outside of class, we visited Pilanesberg Nature Reserve, where we went on a game drive and observed the wildlife.</p>
+
+                                <p>After the final presentations, we had a farewell braai on Wednesday. This brought not just the South African part of the project to an end but the entire project and gave us a chance to reflect on the experience and the work we had completed as a group.</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intercultural Tab Section -->
+    <section class="tab-section" id="intercultural-tabs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Intercultural & Personal Development</h2>
+                <p>Cultural experiences, competencies, and personal growth</p>
+            </div>
+
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="intercultural-exp">
+                        <i class="fas fa-globe-americas"></i> Intercultural Experiences
+                    </button>
+                    <button class="tab-btn" data-tab="intercultural-comp">
+                        <i class="fas fa-hands-helping"></i> Intercultural Competencies
+                    </button>
+                    <button class="tab-btn" data-tab="null-measurement">
+                        <i class="fas fa-chart-bar"></i> Null Measurement
+                    </button>
+                </div>
+
+                <!-- Intercultural Experiences Tab -->
+                <div class="tab-content active" id="intercultural-exp">
+                    <div class="reflection-grid">
+                        <div class="reflection-card">
+                            <h3>Week 1 — What? So What? Now What?</h3>
+                            <p><strong>What?</strong><br>
+                            The first week in South Africa focused on getting an overview of the project and starting practical work in a new environment. In class, we worked on understanding visualisations and the overall project from different perspectives, including those of department officials, scientific audiences, and non-technical users such as children. We also carried out our first field deployment at Hartbeespoort Dam, where we placed the devices that had been built during the Austrian phase into the water. During this deployment, several technical issues became apparent, particularly related to powering the devices and the GPS sensor not connecting to satellites. We also met our stakeholders for the first time and discussed the current state of the project and possible future improvements.</p>
+
+                            <p><strong>So What?</strong><br>
+                            This week showed how different the project became once it moved from a controlled environment into real field conditions. Issues that did not appear during earlier testing became clear during deployment, especially related to power supply and sensor reliability. Working with stakeholders early on highlighted the importance of aligning technical development with real-world needs. The in-class perspective exercises also reinforced how the same information can be interpreted very differently depending on the audience, which is important when communicating technical results.</p>
+
+                            <p><strong>Now What?</strong><br>
+                            - In future deployments, I would prioritise field testing earlier to identify practical issues sooner.<br>
+                            - I want to focus more on designing systems with real-world constraints in mind, such as power, placement, and accessibility.<br>
+                            - I will continue developing my ability to explain technical concepts clearly to different audiences, especially non-technical stakeholders.<br>
+                            - The experience of working back in South Africa after traveling through Europe has given me a new appreciation for local environmental challenges and solutions.</p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <h3>Week 2 — STARR Reflection:</h3>
+                            <p><strong>Situation:</strong><br>
+                            The second week in South Africa focused on analytical and reporting work linked to the project. In class, we learned about the six capitals of integrated reporting and applied this framework by comparing two companies listed on the Johannesburg Stock Exchange. We also worked on uncertainty analysis and developed a simple machine learning model for the seed count case study. At the same time, hardware calibration continued.</p>
+
+                            <p><strong>Task:</strong><br>
+                            My main tasks during this week were to focus on understanding and applying the six capitals framework and uncertainty analysis, while also contributing to the final calibration of the hardware. This included ensuring that sensors, particularly the pH sensor, were producing reasonable outputs.</p>
+
+                            <p><strong>Action:</strong><br>
+                            I worked through the integrated reporting framework and uncertainty analysis in detail, applying these methods to the provided datasets. For the hardware calibration, I worked with Marco and Alexa using simple, homemade tests, such as a pool test kit, to calibrate the pH sensor. This allowed us to adjust the sensor readings and check whether they aligned with expected values.</p>
+
+                            <p><strong>Result:</strong><br>
+                            By the end of the week, I had a clearer understanding of non-financial reporting frameworks and how uncertainty affects data interpretation. The hardware calibration was also completed, resulting in more consistent sensor readings that could be used reliably in later stages of the project.</p>
+
+                            <p><strong>Reflection:</strong><br>
+                            This week highlighted the importance of combining analytical methods with practical validation. Understanding uncertainty and reporting frameworks added context to the technical work, while hands-on calibration reinforced the need to verify data quality using practical tests rather than assumptions. Working back in a South African academic context after European experiences showed me different approaches to problem-solving and analysis.</p>
+                        </div>
+
+                        <div class="reflection-card">
+                            <h3>Week 3 — John's Model of Structured Reflection:</h3>
+                            <p><strong>Description:</strong><br>
+                            Week 3 focused on concluding the South African phase of the project. In class, we worked on selecting the most suitable company for the project using the methods developed in the previous weeks. This included applying the knapsack model to support decision-making. We also prepared and delivered the final presentation. Outside of class, the week included a game drive at Pilanesberg Nature Reserve and a farewell braai after the final presentations.</p>
+
+                            <p><strong>Feelings:</strong><br>
+                            At the start of the week, I felt focused on completing the remaining tasks and ensuring that the analysis and presentation were coherent. There was some pressure to finish the work within the limited time available, but this eased as the analysis came together and the presentation took shape. There was also a sense of accomplishment and nostalgia as the international program neared its conclusion.</p>
+
+                            <p><strong>Evaluation:</strong><br>
+                            What went well was the application of the knapsack model to a less constrained scenario than I was used to, which broadened my understanding of how flexible such models can be. The group worked efficiently to finalise the presentation. What did not go as well was time pressure toward the end, which limited how much refinement we could do.</p>
+
+                            <p><strong>Analysis:</strong><br>
+                            This week reinforced how decision-making tools can be adapted depending on context and available constraints. It also showed the importance of clear communication when presenting analytical results to ensure that conclusions are understandable. The South African approach to project completion emphasized both analytical rigor and practical implementation.</p>
+
+                            <p><strong>Conclusion:</strong><br>
+                            By the end of the week, the project was completed successfully. The combination of analysis, modelling, and presentation brought together the work done over the previous months. Completing the project in South Africa provided a fitting conclusion to the international program.</p>
+
+                            <div class="action-plan">
+                                <h4>Action Plan:</h4>
+                                <ul>
+                                    <li>In future projects, I would allocate more time for refining final outputs.</li>
+                                    <li>I plan to continue developing my ability to apply analytical models flexibly rather than relying on fixed assumptions.</li>
+                                    <li>I will incorporate the multi-perspective communication approach learned in Week 1 into all future technical presentations.</li>
+                                    <li>The experience of completing an international project has inspired me to seek more cross-cultural collaborations in the future.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intercultural Competencies Tab -->
+                <div class="tab-content" id="intercultural-comp">
+                    <div class="content-card">
+                        <h2>Intercultural Competencies:</h2>
+                        <p>The Netherlands has a culture that is very structured and task oriented. People tend to follow schedules closely, stick to clear roles, and focus on efficiency and precision. Meetings are usually short and to the point, and work is approached with careful planning. Spontaneous ideas and informal social interaction are less common during work time, as the priority is on completing tasks effectively.</p>
+
+                        <p>In Spain, the culture is more relaxed and social. People take time to connect personally and enjoy conversations before or alongside work. Flexibility is common, and rules are often treated as guidelines rather than strict requirements. This creates a more informal, energetic atmosphere, where creativity and collaboration are encouraged. Decisions are often made through discussion and consensus, rather than following a strict hierarchy or timetable.</p>
+
+                        <p>South African culture shares similarities with Spain in terms of social connection and flexibility. People value personal interaction, community, and informal communication. Relationships are important in daily life and in teamwork, and there is a balance between following plans and adapting to changing circumstances. Like in Spain, this creates a lively and adaptable environment, where collaboration and problem-solving often involve negotiation and discussion rather than strict rules.</p>
+
+                        <p>Austria, on the other hand, combines structure and formality with a strong respect for tradition and quality. People value organization, punctuality, and precision, similar to the Netherlands, but with a slightly more formal and hierarchical tone. Work is approached in a systematic and methodical way, and there is a clear separation between professional and personal life. Hierarchies are respected, and decisions typically follow established procedures and expert input rather than spontaneous discussion.</p>
+
+                        <p>Communication in the Netherlands tends to be direct and straightforward. People value clarity, honesty, and efficiency in how information is shared. In Spain, communication is generally warmer and more expressive. People use conversation to build relationships, and interactions often include humour, gestures, and personal anecdotes. Listening and dialogue are important for reaching agreement. In South Africa, communication is also friendly and relational, often combining directness with warmth and respect. People value mutual understanding and tend to adapt their tone depending on the situation. In Austria, communication is polite, respectful, and often more formal. People choose their words carefully and maintain a courteous tone, especially in professional settings. While honesty is appreciated, it is balanced with diplomacy to avoid conflict or misunderstanding.</p>
+
+                        <p>Problem-solving and decision-making also differ between these cultures. In the Netherlands, issues are usually addressed quickly and pragmatically, with a focus on practical solutions. In Spain and South Africa, solutions are often negotiated through discussion and compromise, taking into account relationships and group harmony. This allows for flexibility and creativity but can take more time to reach a final decision. Austria leans toward careful analysis and thorough evaluation before acting. Decisions may take longer, as accuracy and long-term stability are prioritized over speed. The Austrian approach emphasizes precision, planning, and maintaining high standards in both process and outcome.</p>
+
+                        <p>Returning to South Africa after experiencing European cultures gave me new appreciation for the South African approach to collaboration and problem-solving. The balance between structure and flexibility, combined with the emphasis on relationships and community, creates a unique working environment that values both technical excellence and human connection.</p>
+                    </div>
+                </div>
+
+                <!-- Null Measurement Tab -->
+                <div class="tab-content" id="null-measurement">
+                    <div class="content-card">
+                        <h2>Null Measurement:</h2>
+
+                        <h3>What I Already Knew:</h3>
+                        <p>Before the South African phase of the project, my prior knowledge was mainly limited to uncertainty analysis and the knapsack model. I had encountered these concepts before in an academic context, although the way the knapsack model was applied in this project was different from my previous experience. In earlier cases, the knapsack model usually involved strict limits, whereas in this project the constraints were less rigid and required a more flexible interpretation. Apart from these areas, most of the analytical methods, reporting frameworks, and technical topics covered during the in-class sessions were new to me.</p>
+
+                        <h3>What I Learned:</h3>
+                        <p>During the South African phase of the project, I learned several new concepts and methods through in-class activities and applied work:</p>
+                        
+                        <p><strong>Multi-perspective Communication:</strong> A significant part of the learning focused on understanding how the same information can be viewed and interpreted from different perspectives. In Week 1, we worked on analysing visualisations from the viewpoints of department officials, technical experts, and non-technical audiences. This helped me understand how the way information is presented can change how it is understood and used.</p>
+
+                        <p><strong>Integrated Reporting:</strong> I also learned about integrated reporting, with a focus on the six capitals framework. This included understanding what each capital represents and how companies can be compared based on more than just financial performance. Applying this framework to companies listed on the Johannesburg Stock Exchange helped make the concept more concrete.</p>
+
+                        <p><strong>Uncertainty Analysis:</strong> Another important area of learning was uncertainty analysis. I worked with sample datasets and learned how uncertainty can influence results and comparisons. Rather than treating data values as exact, the analysis showed how variability needs to be considered when drawing conclusions.</p>
+
+                        <p><strong>Practical Machine Learning:</strong> In addition, I gained experience working with simple machine learning models, which were used to create visualisations for the seed count case study. Although the model itself was basic, it demonstrated how machine learning techniques can be used to support data analysis and visual communication.</p>
+
+                        <p><strong>Flexible Decision Models:</strong> Finally, during Week 3, I learned how linear programming models such as the knapsack model can be applied to decision-making in less constrained scenarios. Working through this process helped me better understand how priorities and trade-offs can be balanced when selecting the most suitable option for a project.</p>
+
+                        <h3>What I Improved:</h3>
+                        <p>Throughout the South African phase of the project, I improved several skills through practical work and collaboration:</p>
+                        
+                        <p><strong>Attention to Detail:</strong> Working on both analytical and technical tasks helped improve my attention to detail, particularly when dealing with data analysis and modelling, where small mistakes could affect the outcome.</p>
+
+                        <p><strong>Collaboration Under Pressure:</strong> I also improved my ability to work collaboratively under time pressure. Tasks were divided among team members, and progress depended on clear communication and coordination. Balancing my own responsibilities with the work being done by others required adaptability and effective teamwork.</p>
+
+                        <p><strong>Systematic Problem-Solving:</strong> In addition, I improved my problem-solving approach by working through challenges step by step rather than rushing to quick solutions. This included taking time to understand issues with analysis methods or models before making changes.</p>
+
+                        <p><strong>Cross-cultural Adaptability:</strong> Returning to work in a South African context after European experiences helped me become more adaptable to different working styles and communication approaches.</p>
+
+                        <p>Overall, the South African phase helped strengthen my analytical thinking and my ability to apply new concepts in a practical project setting while navigating different cultural approaches to work and collaboration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning & Development Tab Section -->
+    <section class="tab-section" id="learning-tabs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Learning & Development</h2>
+                <p>Explore my growth and contributions during the South Africa Project Integration & Analysis module</p>
+            </div>
+
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="new-knowledge">
+                        <i class="fas fa-lightbulb"></i> New Knowledge
+                    </button>
+                    <button class="tab-btn" data-tab="skills-improved">
+                        <i class="fas fa-chart-line"></i> Skills Improved
+                    </button>
+                    <button class="tab-btn" data-tab="project-contributions">
+                        <i class="fas fa-tasks"></i> Project Contributions
+                    </button>
+                    <button class="tab-btn" data-tab="module-overview">
+                        <i class="fas fa-cogs"></i> Module Overview
+                    </button>
+                    <button class="tab-btn" data-tab="gallery">
+                        <i class="fas fa-images"></i> Photo & Video Gallery
+                    </button>
+                </div>
+
+                <!-- New Knowledge Tab -->
+                <div class="tab-content active" id="new-knowledge">
+                    <div class="content-card">
+                        <h2>What I learned:</h2>
+                        <p>The South African phase of the Global Minor program represented the culmination of months of international learning and project development. Over three intensive weeks, I gained comprehensive knowledge in several key areas that bridged technical implementation with strategic analysis and stakeholder communication.</p>
+
+                        <p><strong>Multi-Audience Communication:</strong> The most significant learning came from understanding how to communicate technical information to diverse audiences. We analyzed visualizations from the perspectives of department officials, scientific experts, and non-technical users including children. This exercise revealed how the same data can and should be presented differently depending on the audience's background, needs, and level of technical understanding. I learned that effective communication requires adapting not just the complexity of information but also the visual design, terminology, and explanatory context.</p>
+
+                        <p><strong>Integrated Reporting Frameworks:</strong> I was introduced to the concept of integrated reporting and the six capitals framework (financial, manufactured, intellectual, human, social, and natural). This framework expanded my understanding of how organizations create value beyond mere financial metrics. Applying this to compare companies listed on the Johannesburg Stock Exchange showed me how sustainability and broader impact measures are increasingly important in business decision-making.</p>
+
+                        <p><strong>Uncertainty Analysis:</strong> Working with uncertainty analysis taught me to approach data with appropriate caution. Rather than treating measurements as exact values, I learned to consider variability, measurement error, and confidence intervals. This changed how I interpret results and make recommendations based on data, emphasizing the importance of communicating uncertainty alongside findings.</p>
+
+                        <p><strong>Practical Field Deployment:</strong> Deploying our IoT devices at Hartbeespoort Dam provided invaluable real-world learning. Issues that never appeared in controlled lab environments—like GPS connectivity problems and impractical power requirements—became immediately apparent. This experience taught me the critical importance of field testing and designing for real-world conditions rather than idealized scenarios.</p>
+
+                        <p><strong>Decision-Making Models:</strong> Working with the knapsack model in a flexible, less-constrained context showed me how analytical tools can be adapted to different problem types. Unlike previous academic applications with strict constraints, this project required balancing multiple priorities and trade-offs in a more nuanced way.</p>
+
+                        <p><strong>Stakeholder Engagement:</strong> Meeting with stakeholders at Hartbeespoort Dam provided insights into how technical projects align with real-world needs. Their feedback about measuring at multiple depths rather than just the surface demonstrated how user input can fundamentally improve project design and outcomes.</p>
+
+                        <p>Overall, the South African phase taught me that successful projects require not just technical excellence but also effective communication, consideration of uncertainty, alignment with stakeholder needs, and adaptation to real-world conditions.</p>
+                    </div>
+                </div>
+
+                <!-- Skills Improved Tab -->
+                <div class="tab-content" id="skills-improved">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h3>Multi-Audience Communication</h3>
+                            <p>Developed ability to adapt technical information for diverse audiences from experts to non-technical stakeholders.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h3>Integrated Reporting</h3>
+                            <p>Mastered the six capitals framework for evaluating organizational value beyond financial metrics.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <h3>Uncertainty Analysis</h3>
+                            <p>Improved skills in analyzing data with consideration for variability and measurement uncertainty.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <h3>Field Deployment</h3>
+                            <p>Enhanced ability to test and deploy technical systems in real-world environmental conditions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Contributions Tab -->
+                <div class="tab-content" id="project-contributions">
+                    <div class="content-card">
+                        <h2>My Contributions to the Project:</h2>
+                        <p>Throughout the South African phase of the project, I made significant contributions across technical, analytical, and collaborative dimensions:</p>
+
+                        <h3>Week 1 Contributions:</h3>
+                        <p>During Week 1, I contributed to the group activities focused on understanding the project and its visualisations from different perspectives, including technical, institutional, and non-technical views. This was a collaborative effort, and all team members contributed to these discussions that helped shape how we would communicate our findings to diverse stakeholders.</p>
+
+                        <p>Later in the week, my main focus shifted to hardware-related tasks. I worked closely with Marco on repairing and improving the hardware after issues were identified during deployment at Hartbeespoort Dam. While the rest of the group concentrated on the technical report and finalising Assignment 1, I focused on addressing the practical hardware problems that emerged during field testing. This involved troubleshooting the GPS connectivity issues and working on solutions for the power supply limitations that restricted device placement.</p>
+
+                        <h3>Week 2 Contributions:</h3>
+                        <p>In Week 2, I focused primarily on the six capitals of integrated reporting and the uncertainty analysis component of the project. I worked through these analytical frameworks in detail, applying them to our project context and the case studies provided. This analytical work helped establish the decision-making criteria we would use in the final project phase.</p>
+
+                        <p>Alongside this analytical work, I worked with Marco and Alexa on completing the final hardware calibrations. This included using simple, homemade testing methods, such as a pool test kit, to calibrate the pH sensor. These practical tests allowed us to verify sensor accuracy and make necessary adjustments to ensure reliable data collection.</p>
+
+                        <h3>Week 3 Contributions:</h3>
+                        <p>During the final week, Marco and I worked together on developing and applying the knapsack model used to support company selection for project implementation. This involved structuring the decision problem, defining criteria based on our earlier analytical work, and applying the model to evaluate different company options.</p>
+
+                        <p>I also assisted the rest of the team with finalising content and preparing for the final presentation. This included helping to organize results, refine visualizations, and ensure that our project outcomes were communicated clearly and effectively to our audience.</p>
+
+                        <h3>Overall Impact:</h3>
+                        <p>My contributions helped bridge the gap between technical implementation and strategic analysis. By working on both hardware issues and analytical frameworks, I helped ensure that our project recommendations were grounded in both practical feasibility and strategic soundness. The combination of hands-on technical work and analytical rigor strengthened the overall project outcomes and demonstrated the importance of integrating different skill sets in complex project environments.</p>
+
+                        <p>Working back in the South African context after European experiences allowed me to bring international perspectives to local challenges, particularly in environmental monitoring and sustainable development.</p>
+                    </div>
+                </div>
+
+                <!-- Module Overview Tab -->
+                <div class="tab-content" id="module-overview">
+                    <div class="content-card">
+                        <h2>Module Overview:</h2>
+                        
+                        <h3>Project Integration & Analysis Process:</h3>
+                        <p>This final module focused on integrating and analyzing the complete environmental monitoring system developed across multiple countries. The South African phase represented the culmination of the Global Minor program, bringing together technical implementation, stakeholder engagement, and strategic analysis.</p>
+                        
+                        <h3>Key Components:</h3>
+                        <ul>
+                            <li><strong>Multi-Perspective Analysis:</strong> Examining project outputs from viewpoints of technical experts, department officials, and non-technical audiences</li>
+                            <li><strong>Field Deployment & Testing:</strong> Real-world deployment at Hartbeespoort Dam with identification of practical implementation challenges</li>
+                            <li><strong>Integrated Reporting:</strong> Application of six capitals framework for comprehensive organizational evaluation</li>
+                            <li><strong>Uncertainty Analysis:</strong> Consideration of variability and measurement error in data interpretation</li>
+                            <li><strong>Decision Modeling:</strong> Application of knapsack model for strategic company selection</li>
+                            <li><strong>Stakeholder Engagement:</strong> Direct interaction with project stakeholders for feedback and alignment</li>
+                        </ul>
+                        
+                        <h3>Why</h3>
+                        <p>The purpose of this phase was to transition from technical development to practical implementation and strategic decision-making. By testing devices in real conditions, engaging with stakeholders, and applying analytical frameworks, we validated the project's practical feasibility and strategic value. This phase ensured that months of international work culminated in actionable insights and recommendations.</p>
+                        
+                        <h3>How</h3>
+                        <p>We followed an integrated approach:</p>
+                        <ol>
+                            <li><strong>Field Validation:</strong> Deployed IoT devices at Hartbeespoort Dam to identify real-world implementation challenges</li>
+                            <li><strong>Stakeholder Alignment:</strong> Engaged with project stakeholders to ensure technical development met practical needs</li>
+                            <li><strong>Analytical Framing:</strong> Applied integrated reporting and uncertainty analysis to establish decision criteria</li>
+                            <li><strong>Strategic Decision-Making:</strong> Used knapsack model to evaluate and select implementation partners</li>
+                            <li><strong>Multi-Audience Communication:</strong> Developed presentations tailored to different stakeholder perspectives</li>
+                        </ol>
+                        
+                        <h3>What</h3>
+                        <p>By the end of the module, we achieved:</p>
+                        <ul>
+                            <li>Successful field testing of IoT devices with identification of key implementation challenges</li>
+                            <li>Direct stakeholder feedback incorporated into project recommendations</li>
+                            <li>Comprehensive analytical framework for evaluating project options</li>
+                            <li>Strategic company selection based on multiple criteria beyond financial considerations</li>
+                            <li>Clear communication strategy for diverse stakeholder audiences</li>
+                            <li>Completion of a three-month international project spanning four European countries and South Africa</li>
+                        </ul>
+                        
+                        <p>This module represented my first experience with end-to-end project integration from technical development through to strategic implementation. I learned how technical excellence must be complemented by stakeholder alignment, practical feasibility, and strategic analysis to create meaningful impact. The experience of completing this international program has fundamentally expanded my understanding of global collaboration, cross-cultural project management, and sustainable technology implementation.</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Tab -->
+                <div class="tab-content" id="gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery1.jpg" alt="South Africa Gallery Image 1">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery2.jpg" alt="South Africa Gallery Image 2">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery3.jpg" alt="South Africa Gallery Image 3">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery4.jpg" alt="South Africa Gallery Image 4">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery5.jpg" alt="South Africa Gallery Image 5">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery6.jpg" alt="South Africa Gallery Image 6">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery7.jpg" alt="South Africa Gallery Image 7">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/gallery/south-africa/gallery8.jpg" alt="South Africa Gallery Image 8">
+                        </div>
+                    </div>
+                    
+                    <section>
+                        <div class="container">
+                            <br>
+                            <p style="color: white; text-align: center;">If you want to view the entire gallery press the following button</p>
+                            <div class="back-button">
+                                <a href="https://belgiumcampusacza-my.sharepoint.com/personal/577362_student_belgiumcampus_ac_za/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F577362%5Fstudent%5Fbelgiumcampus%5Fac%5Fza%2FDocuments%2FGlobal%20Minor%20Gallery%2FSouth%20Africa&ga=1" 
+                                   class="btn btn-outline" style="background-color: orange;">Open Gallery</a>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -109,48 +598,47 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>About This Portfolio</h3>
-                    <p>This portfolio documents my international learning experience across 5 modules in 4 European countries and South Africa.</p>
+                    <p>The portfolio documents my international learning experience across 5 modules in 4 European countries and South Africa.</p>
                     <p>It showcases my growth in technical skills, intercultural competencies, and project development throughout this immersive program.</p>
                 </div>
+
                 <div class="footer-column">
                     <h3>Contact Information</h3>
-                <p>
-                    <i class="fas fa-envelope"></i> 
-                    <a href="mailto:577362@student.belgiumcampus.ac.za" 
-                        style="color: inherit; text-decoration: none; cursor: pointer;">
-                        577362@student.belgiumcampus.ac.za
-                    </a>
-                </p>
-
-                <p>
-                    <i class="fas fa-map-marker-alt"></i> 
-                    <a href="https://www.google.com/maps/search/?api=1&query=Belgium+Campus+ITversity+Pretoria+South+Africa" 
-                        target="_blank" 
-                        style="color: inherit; text-decoration: none; cursor: pointer;">
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:577362@student.Belgiumcampus.ac.za"
+                           style="color: inherit; text-decoration: none; cursor: pointer;">
+                            577362@student.Belgiumcampus.ac.za
+                        </a>
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Belgium+Campus+lTversity+Pretoria+South+Africa"
+                           target="_blank"
+                           style="color: inherit; text-decoration: none; cursor: pointer;">
                             Belgium Campus, South Africa
-                    </a>
-                </p>
-                
+                        </a>
+                    </p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/mustapha-ismael-omar-2a2b11318/"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/Musti-Omar-97993"><i class="fab fa-github"></i></a>
-                        <a href="https://x.com/ismaelo4_omar?t=xHGk3rIhjxrR5720w_BGRA&s=08 "><i class="fab fa-twitter"></i></a>
+                        <a href="https://x.com/ismaeld_omar?t=xHGk3rhjxrR5720w_BGRA&s=08"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
+
                 <div class="footer-column">
                     <h3>Project Links</h3>
-                    <p><a href="https://belgiumcampusacza-my.sharepoint.com/:f:/g/personal/577362_student_belgiumcampus_ac_za/Eks-yy9eZjdHrgSNbh78NLoBIbNo-SC1XZyIKhcuGXueOw?e=6YhwRa" style="color: #3498db;">Group OneDrive</a></p>
-                    <p><a href="https://belgiumcampusacza-my.sharepoint.com/:b:/g/personal/577362_student_belgiumcampus_ac_za/EShJBTik5KVCr_UfVHoNbFUByRp83_hnNDJpI-9_ZHzlHA?e=OpElXQ" style="color: #3498db;">Global Minor Guide</a></p>
-                    <p><a href="https://belgiumcampusacza-my.sharepoint.com/:b:/g/personal/577362_student_belgiumcampus_ac_za/EUYF5CdClCNDu4CVghBEKfABrYXH1c8ZDzz6YUfM5UbiWg?e=JQL4fq" style="color: #3498db;">CyberTAG Team Project Concepts</a></p>
-                    <p><a href="https://belgiumcampusacza-my.sharepoint.com/:b:/g/personal/577362_student_belgiumcampus_ac_za/EV5tk5Z9TgxDl86i0c6PIdQBYcDUokvXX8tOi-H075TRSg?e=AzhHap" style="color: #3498db;">CyberTAG Team Project Proposal</a></p>
+                    <p><a href="https://belgiumcampusacza-my.sharepoint.com/:f:/g/personal/577362_student_belgiumcampus_ac_za/Eksyy9eZjdHrgSNbh78NLoBlbNo-SC1XZyIKhcuGXueOw?e=4ueBye" style="color:#3498db;">Group OneDrive</a></p>
+                    <p><a href="https://musti-issy.github.io/Global-Minor-Portfolio-Website/" style="color:#3498db;">Portfolio Website</a></p>
                 </div>
             </div>
+
             <div class="footer-bottom">
                 <p>&copy; 2025 Mustapha Ismael Omar. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="south-africa.js"></script>
 </body>
 </html>

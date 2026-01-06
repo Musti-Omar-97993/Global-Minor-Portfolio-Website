@@ -68,27 +68,7 @@ header.scrolled {
     color: var(--secondary);
 }
 
-/* Belgian Flag */
-.belgium-flag {
-    width: 24px;
-    height: 16px;
-    background: 
-        linear-gradient(to right,
-            #000000 0%, #000000 33%,
-            #ffd700 33%, #ffd700 66%,
-            #c8102e 66%, #c8102e 100%);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-}
 
-.belgium-flag:hover {
-    transform: scale(1.1);
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
-}
 
 nav ul {
     display: flex;
@@ -140,7 +120,7 @@ nav ul li a:hover::after {
     align-items: center;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(200, 16, 46, 0.8) 100%), url('https://images.unsplash.com/photo-1550340499-a6c60fc8287c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(0, 122, 77, 0.8) 0%, rgba(255, 182, 18, 0.8) 100%), url('https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
     margin-top: 80px;
 }
 
@@ -689,7 +669,7 @@ nav ul li a:hover::after {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    order: 2; /* This moves images to the right */
+    order: 2;
 }
 
 .week2-image {
@@ -727,7 +707,7 @@ nav ul li a:hover::after {
 
 .week2-text {
     flex: 1;
-    order: 1; /* This keeps text on the left */
+    order: 1; 
 }
 
 /* Gallery Styles */
@@ -913,7 +893,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        order: 1; /* Reset order for mobile */
+        order: 1;
     }
 
     .week2-image {
@@ -922,7 +902,7 @@ footer {
     }
 
     .week2-text {
-        order: 2; /* Reset order for mobile */
+        order: 2;
     }
 
     .gallery-grid {
@@ -930,8 +910,8 @@ footer {
         gap: 15px;
     }
 
-    /* Belgian Flag Responsive */
-    .belgium-flag {
+    /* South African Flag Responsive */
+    .south-africa-flag {
         width: 20px;
         height: 13px;
     }
@@ -970,8 +950,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    /* Belgian Flag Responsive */
-    .belgium-flag {
+    /* South African Flag Responsive */
+    .south-africa-flag {
         width: 18px;
         height: 12px;
     }
